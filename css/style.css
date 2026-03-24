@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+	--color-blanco: #fff;
+	--color-hover: #001178;
+}
+body{
+font-family: 'Catamaran', sans-serif;
+	color: #555;	
+}
+
+header{
+	background-color: #fff;
+}
+
+
+.carousel-caption h1{
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.carousel-caption h3{
+	font-size: 18px;
+	font-weight: 200;
+	margin-bottom: 20px;
+}
+.carousel-caption .btn{
+	background-color: var(--color-blanco);
+	color: var(--color-negro);
+	border-radius: 50px;
+	padding: 10px 25px;
+	font-weight: 600;
+	border: none;
+}
+.carousel-caption .btn:hover{
+	background-color: var(--color-hover);
+	color: var(--color-blanco);
+	border-radius: 50px;
+	padding: 10px 25px;
+	font-weight: 600;
+	border: none;
+}
+.section{
+	padding: 60px 0;
+}
+
+#apartados img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#apartados h4{
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+#apartados p{
+	font-size: 14px;
+	color: #777;
+}
+
+#iconos{
+	text-align: center;
+}
+
+#iconos img{
+	width: 100px;
+	margin-bottom: 15px;
+}
+
+#iconos h4{
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+#iconos p{
+	font-size: 14px;
+	color: #777;
+	padding: 0 10px;
+}
+
+#cta{
+	background-image: url("../img/home-grid-banner.jpg");
+	color: var(--color-blanco);
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#cta h2{
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+#cta p{
+	margin-bottom: 20px;
+}
+#cta .btn{
+	background-color: var(--color-blanco);
+	color: var(--color-negro);
+	border-radius: 50px;
+	padding: 10px 25px;
+	font-weight: 600;
+	border: none;
+}
+
+#cta .btn:hover{
+	background-color: var(--color-hover);
+	color: var(--color-blanco);
+	border-radius: 50px;
+	padding: 10px 25px;
+	font-weight: 600;
+	border: none;
+}
+#marcas{
+	text-align: center;
+}
+
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
